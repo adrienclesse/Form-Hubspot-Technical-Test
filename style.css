@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image : url(teamwork.jpg);
+    background-image : url(gray.jpg);
     background-size: cover;
    
 }
@@ -24,12 +24,12 @@ p{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 22px;
     color:white;
 }
 
 .glyphicon-pencil{
-    font: size 35px;
+    font-size: 35px;
     color:white;
     float:right;
     margin-top:20px;
@@ -38,7 +38,7 @@ h3{
 .col-md-5{
     margin-top: 80px;
     box-shadow: -1px 1px 60px 10px black;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.8);
 }
 .label{
     font-weight: normal;
@@ -56,5 +56,13 @@ h3{
     height: 40px;
     color: white;
 
+}
+
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left:80px;
+    margin-bottom: 20px;
 }
 
