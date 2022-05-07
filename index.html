@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/Bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>hubspot-technical-test</title>
 </head>
@@ -21,37 +20,39 @@
             <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="text-left">Fill the fields and press submit</h3>
+                        <h3 class="text-left">Fill the fields and press the submit button</h3>
                     </div>
                     <div class="col-md-6">
                         <span class="glyphicon glyphicon-pencil"></span></div> 
                 </div>
                 <hr>
-                <div class="row">
-                    <label class="label col-md-2 control-label">Name</label>
-                    <div class="col-md-10">
-                        <input type="name" class="form-control" name="name" placeholder="Name">
+                <form action="handleform.php" method="post">
+                    <div class="row">
+                        <label class="label col-md-2 control-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="name" class="form-control" name="name" placeholder="Name">
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <label class="label col-md-2 control-label">Birthday</label>
-                    <div class="col-md-10">
-                        <input type="date" class="form-control" name="birthdate" placeholder="Birthdate">
+                    <div class="row">
+                        <label class="label col-md-2 control-label">Birthdate</label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" name="birthday" placeholder="Birthday">
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <label class="label col-md-2 control-label">E-mail</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" name="email" placeholder="E-mail">
+                    <div class="row">
+                        <label class="label col-md-2 control-label">E-mail</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" name="email" placeholder="E-mail">
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <label class="label col-md-2 control-label">Password</label>
-                    <div class="col-md-10">
-                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    <div class="row">
+                        <label class="label col-md-2 control-label">Password</label>
+                        <div class="col-md-10">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
                     </div>
-                </div>
-                <a href="#"><div class="btn btn-info">Submit</div></a>
+                    <input type="submit" name="submit" value="Submit" class="btn btn-info">
+                </form>
         </div>
     </div>
 
